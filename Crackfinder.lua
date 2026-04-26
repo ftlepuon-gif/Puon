@@ -1,4 +1,4 @@
--- Đam Finder  V2
+-- FX's Finder  V2
 -- Titre: FX's Finder | Couleurs: Blue-White Chroma
 
 local HttpService    = game:GetService("HttpService")
@@ -9,7 +9,7 @@ local TeleportService= game:GetService("TeleportService")
 local SoundService   = game:GetService("SoundService")
 local UserInputService = game:GetService("UserInputService")
 
-local UI_NAME = "Đamfinder_GUI"
+local UI_NAME = "FXsFinderv2_GUI"
 local lp = Players.LocalPlayer
 
 ---- Cleanup
@@ -1497,7 +1497,6 @@ end)
 
 -- 1. Setup Variables
 local URL = "https://joine-82ca0-default-rtdb.firebaseio.com/Servers.json"
-
 local seenIds = {}
 _G.FXRunning = true 
 
